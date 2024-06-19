@@ -1,4 +1,4 @@
-body{
+body {
     background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
     color: white;
     font-family: Arial, sans-serif;
@@ -9,6 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    transition: background-color 0.3s ease;
 }
 
 header, main {
@@ -17,17 +18,43 @@ header, main {
     align-items: center;
 }
 
-button{
-    width: 6vw;
-    height: 3vh;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    margin: 10px;
+.buttons {
+    display: flex;
+    gap: 20px; 
 }
 
-.lamp-on {
-    background-color: rgba(255, 255, 204, 0.3);
+button {
+    width: 5rem;
+    height: 5rem;
+    background-color: #f0e68c;
+    border: none;
     border-radius: 50%;
-    padding: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
+button i {
+    font-size: 3rem;
+    color: #2a5298;
+}
+
+button:hover {
+    background-color: #ffd700;
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+.lamp-container img {
+    margin-bottom: 1rem;
+    width: 15rem; 
+    height: auto; 
+    transition: width 0.3s ease; 
+}
+
