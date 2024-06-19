@@ -7,7 +7,7 @@
   Trata-se de um projeto simples para ligar e desligar uma lâmpada, aplicando conhecimentos adquiridos em HTML, CSS e Javascript para interação de elementos.
 </p><br>
 
-<h2>💻Orientações</h2>
+<h2>📋Orientações</h2>
     <ol>
         <li>Ao clicar no botão esquerdo, a lâmpada se acende;</li>
         <li>Ao clicar no botão direito, a lâmpada se apaga;</li>
