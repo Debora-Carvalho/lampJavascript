@@ -1,0 +1,14 @@
+body{
+    background-color: blue;
+}
+
+header, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    width: 6vw;
+    height: 3vh;
+}
