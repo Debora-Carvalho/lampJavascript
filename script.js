@@ -10,7 +10,7 @@ function isLampBroken() {
 function lampOn() {
     if (!isLampBroken()) {
         lamp.src = './images/ligada.png';
-        document.body.style.background = '#f0e68c'; // Cor mais clara
+        document.body.style.background = 'radial-gradient(circle, #f0e68c 20%, #01112e)'; // Cor mais clara
         headerText.textContent = 'Apague as luzes!';
         headerText.style.color = '#2a5298';
     }
@@ -19,7 +19,7 @@ function lampOn() {
 function lampOff() {
     if (!isLampBroken()) {
         lamp.src = './images/desligada.png';
-        document.body.style.background = 'linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)'; // gradiente padrão
+        document.body.style.background = 'linear-gradient(135deg, #01112e 0%, #2a5298 100%)'; // gradiente padrão
         headerText.textContent = 'Acenda as luzes!';
         headerText.style.color = '#ffffff';
     }
@@ -27,7 +27,7 @@ function lampOff() {
 
 function lampBroken() {
     lamp.src = './images/quebrada.png';
-    document.body.style.background = 'linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)'; // gradiente padrão
+    document.body.style.background = 'linear-gradient(135deg, #01112e 0%, #2a5298 100%)'; // gradiente padrão
     headerText.textContent = 'Oh não... você a quebrou!';
     headerText.style.color = '#ffffff';
 }
